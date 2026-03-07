@@ -20,6 +20,10 @@ El sistema está compuesto por los siguientes componentes principales:
 | `Bumbledesa-backend` | Microservicios (auth, social, location) |
 | `Bumbledesa-infra` | Infraestructura y despliegue |
 
+### Microservicios del Backend:
+- **auth-service**: maneja la autenticación y autorización de usuarios (registro, login, tokens, roles).
+- **social-service**: gestiona usuarios, perfiles y relaciones sociales (amigos, solicitudes, preferencias).
+- **location-service**: procesa y expone la ubicación en tiempo real de los usuarios y controla la frecuencia de envío (rate limiting).
 ---
 
 ## 🏷️ Sistema de Labels en Backlogs
