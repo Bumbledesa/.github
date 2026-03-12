@@ -10,6 +10,19 @@ El sistema está compuesto por los siguientes componentes principales:
 - Infraestructura de despliegue y monitoreo
 
 ---
+## Stack:
+### Backend
+ - Social - Python
+ - Auth - Node + Typescript  
+ - Location - Go
+
+### Front moBile:
+ - Flutter
+
+### Front Backoffice:
+- Vue + Typescript
+
+
 
 ## 📦 Repositorios Principales
 
