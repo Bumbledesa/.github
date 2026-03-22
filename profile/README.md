@@ -12,7 +12,7 @@ El sistema está compuesto por los siguientes componentes principales:
 ---
 ## Stack:
 ### Backend
- - Social - PythonNode + Typescript  
+ - Social - Node + Typescript  
  - Auth - Python
  - Location - Go
 
