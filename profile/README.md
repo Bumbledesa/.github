@@ -4,6 +4,8 @@ Bumbledesa es una aplicación social de ubicación para compartir dónde estás 
 
 > Proyecto académico grupal desarrollado como un sistema completo: producto, backend, infraestructura, calidad y operación.
 
+El código fuente de los repositorios de producto e infraestructura se mantiene privado. Este perfil presenta la arquitectura, las responsabilidades de cada componente y las principales capacidades del sistema.
+
 ## Arquitectura
 
 ```mermaid
@@ -43,15 +45,15 @@ El **API Gateway** es el único punto de entrada de los clientes. Valida JWT, co
 
 | Repositorio | Responsabilidad | Stack principal |
 |---|---|---|
-| [`Bumbledesa-mobile`](https://github.com/Bumbledesa/Bumbledesa-mobile) | Aplicación móvil, mapa, amistades, ubicación y meetups | Flutter · Dart · GoRouter |
-| [`Bumbledesa-backoffice-web`](https://github.com/Bumbledesa/Bumbledesa-backoffice-web) | Administración de usuarios y operación de la plataforma | Vue 3 · TypeScript · Vite · Pinia |
-| [`Bumbledesa-backend-gateway`](https://github.com/Bumbledesa/Bumbledesa-backend-gateway) | Autenticación en el borde, routing y proxy HTTP/SSE | Python · FastAPI · Redis |
-| [`Bumbledesa-backend-auth`](https://github.com/Bumbledesa/Bumbledesa-backend-auth) | Registro, login, verificación, tokens, roles y credenciales | Python · FastAPI · PostgreSQL · Redis |
-| [`Bumbledesa-backend-users`](https://github.com/Bumbledesa/Bumbledesa-backend-users) | Perfiles, búsqueda de usuarios y términos | Python · FastAPI · PostgreSQL |
-| [`Bumbledesa-backend-social`](https://github.com/Bumbledesa/Bumbledesa-backend-social) | Amistades, preferencias, notificaciones, feedback y meetups | Node.js · TypeScript · Express · Prisma |
-| [`Bumbledesa-backend-location`](https://github.com/Bumbledesa/Bumbledesa-backend-location) | Ubicación, historial, consultas geoespaciales y puntos de encuentro | Go · chi · MongoDB |
-| [`Bumbledesa-backend-ai`](https://github.com/Bumbledesa/Bumbledesa-backend-ai) | Agente planificador de encuentros con aprobación humana | Python · FastAPI · LangGraph · AWS Bedrock |
-| [`Bumbledesa-infra`](https://github.com/Bumbledesa/Bumbledesa-infra) | Entorno local, despliegue, configuración y observabilidad | Docker Compose · Kubernetes · Grafana · VictoriaMetrics |
+| `Bumbledesa-mobile` | Aplicación móvil, mapa, amistades, ubicación y meetups | Flutter · Dart · GoRouter |
+| `Bumbledesa-backoffice-web` | Administración de usuarios y operación de la plataforma | Vue 3 · TypeScript · Vite · Pinia |
+| `Bumbledesa-backend-gateway` | Autenticación en el borde, routing y proxy HTTP/SSE | Python · FastAPI · Redis |
+| `Bumbledesa-backend-auth` | Registro, login, verificación, tokens, roles y credenciales | Python · FastAPI · PostgreSQL · Redis |
+| `Bumbledesa-backend-users` | Perfiles, búsqueda de usuarios y términos | Python · FastAPI · PostgreSQL |
+| `Bumbledesa-backend-social` | Amistades, preferencias, notificaciones, feedback y meetups | Node.js · TypeScript · Express · Prisma |
+| `Bumbledesa-backend-location` | Ubicación, historial, consultas geoespaciales y puntos de encuentro | Go · chi · MongoDB |
+| `Bumbledesa-backend-ai` | Agente planificador de encuentros con aprobación humana | Python · FastAPI · LangGraph · AWS Bedrock |
+| `Bumbledesa-infra` | Entorno local, despliegue, configuración y observabilidad | Docker Compose · Kubernetes · Grafana · VictoriaMetrics |
 
 ## Capacidades destacadas
 
